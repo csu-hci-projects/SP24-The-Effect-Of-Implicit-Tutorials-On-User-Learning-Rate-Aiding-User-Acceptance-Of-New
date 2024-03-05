@@ -17,6 +17,7 @@ public class ClickToSelect : MonoBehaviour
         {
             //UnityEngine.Debug.Log("selecting");
             selector.GetComponent<ObjectSelection>().setSelected(gameObject);
+            selectButton.selectorOn = false;
         }
     }
 }

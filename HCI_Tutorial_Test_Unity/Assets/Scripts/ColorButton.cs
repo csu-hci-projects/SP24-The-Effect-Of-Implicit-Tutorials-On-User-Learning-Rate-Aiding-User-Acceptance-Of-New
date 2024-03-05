@@ -17,7 +17,10 @@ public class ColorButton : MonoBehaviour
     }
     void Click(){
         selected = selector.GetComponent<ObjectSelection>().getSelected();
-        selected.GetComponent<Renderer>().material.SetColor("_Color", new Color(.5f,.5f,.1f));
+        if (selected != null)
+        {
+            selected.GetComponent<Renderer>().material.SetColor("_Color", new Color(.5f, .5f, .1f));
+        }
     }
 
 
