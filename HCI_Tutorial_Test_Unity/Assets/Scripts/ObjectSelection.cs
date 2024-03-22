@@ -19,7 +19,7 @@ public class ObjectSelection : MonoBehaviour
         return selectedObject;
     }
     public void deSelect(){
-        if(selectedObject != null){
+        if (selectedObject != null){
             selectedObject.GetComponent<Outline>().enabled = false;
             selectedObject = null;
             transformer.SetActive(false);
