@@ -10,6 +10,7 @@ public class MenuRendering : MonoBehaviour
     public GameObject PositionMenu;
     public GameObject ScaleMenu;
     public GameObject ColorMenu;
+    public GameObject SpawnMenu;
 
     public GameObject ActiveMenu;
     // Start is called before the first frame update
@@ -22,6 +23,7 @@ public class MenuRendering : MonoBehaviour
         PositionMenu.SetActive(false);
         ScaleMenu.SetActive(false);
         ColorMenu.SetActive(false);
+        SpawnMenu.SetActive(false);
     }
 
     // Update is called once per frame
@@ -29,8 +31,6 @@ public class MenuRendering : MonoBehaviour
     {
         
     }
-
-
 
     public void OpenActionMenu()
     {
@@ -65,6 +65,12 @@ public class MenuRendering : MonoBehaviour
         ActiveMenu = ColorMenu;
     }
 
+    public void OpenSpawnMenu() {
+        ActionMenu.SetActive(false);
+        SpawnMenu.SetActive(true);
+        ActiveMenu = SpawnMenu;
+    }
+
     public void GoBack()
     {
         if (ActiveMenu == ActionMenu)
@@ -94,6 +100,12 @@ public class MenuRendering : MonoBehaviour
         if (ActiveMenu == ColorMenu)
         {
             ColorMenu.SetActive(false);
+            ActionMenu.SetActive(true);
+            ActiveMenu = ActionMenu;
+        }
+        if (ActiveMenu == SpawnMenu)
+        {
+            SpawnMenu.SetActive(false);
             ActionMenu.SetActive(true);
             ActiveMenu = ActionMenu;
         }
