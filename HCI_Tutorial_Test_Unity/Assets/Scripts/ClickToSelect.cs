@@ -5,12 +5,13 @@ public class ClickToSelect : MonoBehaviour
 {
 
     private GameObject selector;
-    public SelectButton selectButton;
+    private SelectButton selectButton;
 
     void Start()
     {
         gameObject.GetComponent<Outline>().enabled = false;
         selector = GameObject.Find("Selected");
+        selectButton = GameObject.FindObjectOfType<SelectButton>(true);
     }
     void OnMouseDown(){
         if (selectButton.selectorOn)
