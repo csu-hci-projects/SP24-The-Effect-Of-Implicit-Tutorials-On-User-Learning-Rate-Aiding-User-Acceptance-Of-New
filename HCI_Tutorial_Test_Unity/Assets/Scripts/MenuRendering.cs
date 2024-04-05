@@ -11,13 +11,15 @@ public class MenuRendering : MonoBehaviour
     public GameObject ScaleMenu;
     public GameObject ColorMenu;
     public GameObject SpawnMenu;
+    public GameObject PopupMenu;
 
     public GameObject ActiveMenu;
     // Start is called before the first frame update
     void Start()
     {
-        ActiveMenu = BasicMenu;
-        BasicMenu.SetActive(true);
+        ActiveMenu = PopupMenu;
+        PopupMenu.SetActive(true);
+        BasicMenu.SetActive(false);
         ActionMenu.SetActive(false);
         RotateMenu.SetActive(false);
         PositionMenu.SetActive(false);
@@ -30,6 +32,13 @@ public class MenuRendering : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void OpenBasicMenu()
+    {
+        PopupMenu.SetActive(false);
+        BasicMenu.SetActive(true);
+        ActionMenu = BasicMenu;
     }
 
     public void OpenActionMenu()
