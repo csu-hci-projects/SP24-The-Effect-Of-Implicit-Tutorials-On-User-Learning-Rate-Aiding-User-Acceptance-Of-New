@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2609,7 +2609,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Home
+  m_text: 'Home Camera
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2636,8 +2638,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6352,7 +6354,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 816150092}
-  - component: {fileID: 816150091}
   m_Layer: 0
   m_Name: Camera Control
   m_TagString: Untagged
@@ -6360,19 +6361,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &816150091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816150090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1233e794d8044955b38db4e24b028d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotateSpeed: 0.75
 --- !u!4 &816150092
 Transform:
   m_ObjectHideFlags: 0
@@ -6385,8 +6373,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1074924855}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &835613287
@@ -7885,6 +7872,7 @@ GameObject:
   - component: {fileID: 1074924855}
   - component: {fileID: 1074924854}
   - component: {fileID: 1074924853}
+  - component: {fileID: 1074924856}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7964,8 +7952,23 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 816150092}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1074924856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074924852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bc37a1a04f541f09f2d52d0071f3eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 816150092}
+  distance: 5
+  rotationSpeed: 20
 --- !u!1 &1091309079
 GameObject:
   m_ObjectHideFlags: 0
@@ -11477,7 +11480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1342d34d34b428daaabba9379d84af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraObject: {fileID: 816150090}
+  cameraObject: {fileID: 1074924852}
 --- !u!114 &1453398031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16452,3 +16455,4 @@ SceneRoots:
   - {fileID: 816150092}
   - {fileID: 1261460181}
   - {fileID: 1199417783}
+  - {fileID: 1074924855}

@@ -38,7 +38,7 @@ public class MenuRendering : MonoBehaviour
     {
         PopupMenu.SetActive(false);
         BasicMenu.SetActive(true);
-        ActionMenu = BasicMenu;
+        ActiveMenu = BasicMenu;
     }
 
     public void OpenActionMenu()

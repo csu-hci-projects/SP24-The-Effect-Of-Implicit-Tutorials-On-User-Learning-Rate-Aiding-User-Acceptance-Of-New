@@ -17,5 +17,6 @@ public class HomeCamera : MonoBehaviour
     void Click()
     {
         cameraObject.transform.rotation = Quaternion.Euler(0, 0, 0);
+        cameraObject.transform.position = new Vector3(0, 1, -10);
     }
 }
