@@ -16,17 +16,27 @@ public class DataFileWriter : MonoBehaviour
     public int TrialNumber = 1;
     public string TrialType = "";
 
+    public StreamWriter sr;
 
-    public void WriteString()
+
+    public void WriteString(string s)
+    {
+        sr.WriteLine(s);
+        UnityEngine.Debug.Log("Writing");
+    }
+
+    public void OpenFileWrite()
     {
         if (File.Exists(fileName))
         {
             UnityEngine.Debug.Log(fileName + " already exists.");
             return;
         }
-        var sr = File.CreateText(fileName);
-        sr.WriteLine("Insert Data Here");
-        UnityEngine.Debug.Log("Writing");
+        sr = File.CreateText(fileName);
+    }
+
+    public void CloseFileWrite()
+    {
         sr.Close();
     }
 
