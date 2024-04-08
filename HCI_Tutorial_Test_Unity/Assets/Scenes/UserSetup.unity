@@ -250,6 +250,7 @@ MonoBehaviour:
   UserID: 
   TrialNumber: 0
   TrialType: 
+  SettingsPage: 1
 --- !u!4 &220243277
 Transform:
   m_ObjectHideFlags: 0
@@ -2051,7 +2052,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 220243276}
         m_TargetAssemblyTypeName: DataFileWriter, Assembly-CSharp
-        m_MethodName: OpenFileWrite
+        m_MethodName: SaveSettings
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

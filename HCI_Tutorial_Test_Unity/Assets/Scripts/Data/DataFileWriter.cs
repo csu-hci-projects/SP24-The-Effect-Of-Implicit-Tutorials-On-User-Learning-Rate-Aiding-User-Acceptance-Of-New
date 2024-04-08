@@ -16,28 +16,52 @@ public class DataFileWriter : MonoBehaviour
     public int TrialNumber = 1;
     public string TrialType = "";
 
-    public StreamWriter sr;
+    public bool SettingsPage = false;
 
 
-    public void WriteString(string s)
+    public void FileWrite(string s)
     {
-        sr.WriteLine(s);
-        UnityEngine.Debug.Log("Writing");
-    }
-
-    public void OpenFileWrite()
-    {
+        string data = "";
         if (File.Exists(fileName))
         {
-            UnityEngine.Debug.Log(fileName + " already exists.");
-            return;
+            var sreader = File.OpenText(fileName);
+            var line = sreader.ReadLine();
+            while (line != null)
+            {
+                data += line + "\n";
+                line = sreader.ReadLine();
+            }
+            sreader.Close();
         }
-        sr = File.CreateText(fileName);
+        var swriter = File.CreateText(fileName);
+        swriter.WriteLine(data);
+        swriter.WriteLine(s);
+        swriter.Close();
     }
 
-    public void CloseFileWrite()
+    public void SaveSettings()
     {
+        var sr = File.CreateText(Application.persistentDataPath + "\\TrialSettings\\" + "TrialSettings.txt");
+        sr.WriteLine(fileName);
         sr.Close();
+    }
+
+    public void OpenSettings()
+    {
+        if (File.Exists(Application.persistentDataPath + "\\TrialSettings\\" + "TrialSettings.txt"))
+        {
+            var sr = File.OpenText(Application.persistentDataPath + "\\TrialSettings\\" + "TrialSettings.txt");
+            var line = sr.ReadLine();
+            if (line != null)
+            {
+                fileName = line;
+            }
+        }
+        else
+        {
+            UnityEngine.Debug.Log("Could not Open the file: " + Application.persistentDataPath + "\\TrialSettings\\" + "TrialSettings.txt" + " for reading.");
+            return;
+        }
     }
 
     public void ReadFile()
@@ -64,25 +88,13 @@ public class DataFileWriter : MonoBehaviour
 
     public void UpdateFilename()
     {
-        fileName = Application.persistentDataPath + "\\UserData\\" + UserID + "_" + TrialType + "_" + TrialNumber.ToString() + ".txt";
+        fileName = Application.persistentDataPath + "\\UserData\\" + UserID + "_" + TrialType + "_" + ".txt";
         UnityEngine.Debug.Log(fileName);
     }
 
     public void UpdateUserID()
     {
         UserID = UserID_field.text;
-    }
-
-    public void UpdateTrialNumber(int change)
-    {
-        if (change == 0)
-        {
-            TrialNumber = 1;
-        }
-        else
-        {
-            TrialNumber += change;
-        }
     }
 
     public void UpdateTrialType()
@@ -95,6 +107,7 @@ public class DataFileWriter : MonoBehaviour
     void Start()
     {
         UnityEngine.Debug.Log(Application.persistentDataPath);
+        if (!SettingsPage) { OpenSettings(); }
     }
 
     // Update is called once per frame
