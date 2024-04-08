@@ -10,13 +10,12 @@ public class ClickCounter : MonoBehaviour
     public void addButton(string buttonName, float time){
         (string, float) record = (buttonName, time);
         buttonRecord.Add(record);
-        printList();
     }
-    void printList(){
-        string recordString = "Record:   ";
+    public string printList(){
+        string recordString = "";
         foreach ((string, float) record in buttonRecord){
-            recordString += record.Item1 + ": " + record.Item2 + ", ";
+            recordString += record.Item1 + "," + record.Item2 + "\n";
         }
-        Debug.Log(recordString);
+        return recordString;
     }
 }

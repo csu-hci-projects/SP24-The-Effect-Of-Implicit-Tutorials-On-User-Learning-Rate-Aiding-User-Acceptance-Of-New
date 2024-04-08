@@ -5,18 +5,18 @@ using UnityEngine.UI;
 
 public class AddToCounter : MonoBehaviour
 {
-    private GameObject clickCounter;
+    private GameObject dataManager;
     private Button button;
 
     void Start()
     {
-        clickCounter = GameObject.Find("ClickInformation");
+        dataManager = GameObject.Find("DataManager");
         button = gameObject.GetComponent<Button>();
         button.onClick.AddListener(countClick);
     }
 
     void countClick(){
-        clickCounter.GetComponent<ClickCounter>().addButton(gameObject.name, Time.time);
+        dataManager.GetComponent<ClickCounter>().addButton(gameObject.name, Time.time);
     }
 
 
