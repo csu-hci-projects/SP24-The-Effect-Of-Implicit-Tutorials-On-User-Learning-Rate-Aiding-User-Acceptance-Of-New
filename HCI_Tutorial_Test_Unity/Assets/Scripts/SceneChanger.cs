@@ -29,15 +29,19 @@ public class SceneChanger : MonoBehaviour
             //send to first trial for no tutorial
             SceneManager.LoadScene(NextSceneIndex); //temp
         }
-        if (TrialType == "stut")
+        else if (TrialType == "stut")
         {
             //send to first trial for standard tutorial
             SceneManager.LoadScene(NextSceneIndex); //temp
         }
-        if (TrialType == "htut")
+        else if (TrialType == "htut")
         {
             //send to first trial for highlighted tutorial
             SceneManager.LoadScene(NextSceneIndex); //temp
+        }
+        else
+        {
+            SceneManager.LoadScene(NextSceneIndex);
         }
     }
 }
