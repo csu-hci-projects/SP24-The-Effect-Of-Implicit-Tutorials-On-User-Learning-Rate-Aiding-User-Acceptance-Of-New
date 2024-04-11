@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7798,6 +7798,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 942fa4493d60945b0892ade2dc8a41ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  taskLabel: {fileID: 1207080892}
+  taskDesc: {fileID: 1835574206}
 --- !u!114 &1013474527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7841,7 +7843,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1013474528}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 291036162}
+        m_TargetAssemblyTypeName: MenuRendering, Assembly-CSharp
+        m_MethodName: OpenPopupMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1013474528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9587,7 +9601,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Task:'
+  m_text: Task 1.1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -15440,7 +15454,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '[task here]'
+  m_text: '1. First do some stuff
+
+    2. do more stuff
+
+    3. finish that stuff'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -15685,7 +15703,8 @@ MonoBehaviour:
   TrialType_field: {fileID: 0}
   fileName: 
   UserID: 
-  TrialNumber: 0
+  TrialNumber: 1
+  TrialRound: 1
   TrialType: 
   SettingsPage: 1
 --- !u!4 &1852064213

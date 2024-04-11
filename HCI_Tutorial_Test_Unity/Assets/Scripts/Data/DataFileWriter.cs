@@ -14,6 +14,7 @@ public class DataFileWriter : MonoBehaviour
     public string fileName = "";
     public string UserID = "";
     public int TrialNumber = 1;
+    public int TrialRound = 1;
     public string TrialType = "";
 
     public bool SettingsPage = false;

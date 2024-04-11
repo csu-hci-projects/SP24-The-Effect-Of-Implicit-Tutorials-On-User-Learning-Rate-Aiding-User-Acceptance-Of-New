@@ -80,6 +80,12 @@ public class MenuRendering : MonoBehaviour
         ActiveMenu = SpawnMenu;
     }
 
+    public void OpenPopupMenu(){
+        PopupMenu.SetActive(true);
+        BasicMenu.SetActive(false);
+        ActiveMenu = PopupMenu;
+    }
+
     public void GoBack()
     {
         if (ActiveMenu == ActionMenu)
