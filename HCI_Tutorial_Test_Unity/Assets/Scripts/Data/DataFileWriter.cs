@@ -33,6 +33,7 @@ public class DataFileWriter : MonoBehaviour
             }
             sreader.Close();
         }
+        UnityEngine.Debug.Log("file writing to " + fileName);
         var swriter = File.CreateText(fileName);
         swriter.WriteLine(data);
         swriter.WriteLine(s);
@@ -41,16 +42,16 @@ public class DataFileWriter : MonoBehaviour
 
     public void SaveSettings()
     {
-        var sr = File.CreateText(Application.persistentDataPath + "\\TrialSettings\\" + "TrialSettings.txt");
+        var sr = File.CreateText(Application.persistentDataPath + "/TrialSettings/" + "TrialSettings.txt");
         sr.WriteLine(fileName);
         sr.Close();
     }
 
     public void OpenSettings()
     {
-        if (File.Exists(Application.persistentDataPath + "\\TrialSettings\\" + "TrialSettings.txt"))
+        if (File.Exists(Application.persistentDataPath + "/TrialSettings/" + "TrialSettings.txt"))
         {
-            var sr = File.OpenText(Application.persistentDataPath + "\\TrialSettings\\" + "TrialSettings.txt");
+            var sr = File.OpenText(Application.persistentDataPath + "/TrialSettings/" + "TrialSettings.txt");
             var line = sr.ReadLine();
             if (line != null)
             {
@@ -59,7 +60,7 @@ public class DataFileWriter : MonoBehaviour
         }
         else
         {
-            UnityEngine.Debug.Log("Could not Open the file: " + Application.persistentDataPath + "\\TrialSettings\\" + "TrialSettings.txt" + " for reading.");
+            UnityEngine.Debug.Log("Could not Open the file: " + Application.persistentDataPath + "/TrialSettings/" + "TrialSettings.txt" + " for reading.");
             return;
         }
     }
@@ -88,7 +89,7 @@ public class DataFileWriter : MonoBehaviour
 
     public void UpdateFilename()
     {
-        fileName = Application.persistentDataPath + "\\UserData\\" + UserID + "_" + TrialType + "_" + ".txt";
+        fileName = Application.persistentDataPath + "/UserData/" + UserID + "_" + TrialType + "_" + ".txt";
         UnityEngine.Debug.Log(fileName);
     }
 
