@@ -12,12 +12,20 @@ public class HighlightButtons : MonoBehaviour
     public GameObject HL_MoveShape;
     public GameObject HL_ScaleShape;
     public GameObject HL_ColorShape;
-    public GameObject HL_X;
-    public GameObject HL_Y;
-    public GameObject HL_Z;
-    public GameObject HL_XYZ;
     public GameObject HL_TaskFinished;
-    
+
+    public GameObject HL_X_R; //R for rotate
+    public GameObject HL_Y_R;
+    public GameObject HL_Z_R;
+    public GameObject HL_XYZ_R;
+    public GameObject HL_X_M; //M for move (position)
+    public GameObject HL_Y_M;
+    public GameObject HL_Z_M;
+    public GameObject HL_XYZ_M;
+    public GameObject HL_X_S; //S for scale
+    public GameObject HL_Y_S;
+    public GameObject HL_Z_S;
+    public GameObject HL_XYZ_S;
 
     // Start is called before the first frame update
     void Start()
@@ -30,11 +38,20 @@ public class HighlightButtons : MonoBehaviour
         HL_MoveShape.SetActive(false);
         HL_ScaleShape.SetActive(false);
         HL_ColorShape.SetActive(false);
-        HL_X.SetActive(false);
-        HL_Y.SetActive(false);
-        HL_Z.SetActive(false);
-        HL_XYZ.SetActive(false);
         HL_TaskFinished.SetActive(false);
+
+        HL_X_R.SetActive(false); //R for rotate
+        HL_Y_R.SetActive(false);
+        HL_Z_R.SetActive(false);
+        HL_XYZ_R.SetActive(false);
+        HL_X_M.SetActive(false); //M for move(position)
+        HL_Y_M.SetActive(false);
+        HL_Z_M.SetActive(false);
+        HL_XYZ_M.SetActive(false);
+        HL_X_S.SetActive(false); //S for scale
+        HL_Y_S.SetActive(false);
+        HL_Z_S.SetActive(false);
+        HL_XYZ_S.SetActive(false);
     }
 
     // Update is called once per frame
@@ -53,11 +70,56 @@ public class HighlightButtons : MonoBehaviour
         HL_MoveShape.SetActive(false);
         HL_ScaleShape.SetActive(false);
         HL_ColorShape.SetActive(false);
-        HL_X.SetActive(false);
-        HL_Y.SetActive(false);
-        HL_Z.SetActive(false);
-        HL_XYZ.SetActive(false);
         HL_TaskFinished.SetActive(false);
+
+        HL_X_R.SetActive(false); //R for rotate
+        HL_Y_R.SetActive(false);
+        HL_Z_R.SetActive(false);
+        HL_XYZ_R.SetActive(false);
+        HL_X_M.SetActive(false); //M for move(position)
+        HL_Y_M.SetActive(false);
+        HL_Z_M.SetActive(false);
+        HL_XYZ_M.SetActive(false);
+        HL_X_S.SetActive(false); //S for scale
+        HL_Y_S.SetActive(false);
+        HL_Z_S.SetActive(false);
+        HL_XYZ_S.SetActive(false);
     }
      
+    public void BasicMenuHL()
+    {
+        Clear();
+        HL_Action.SetActive(true);
+        HL_Select.SetActive(true);
+    }
+
+    public void RotateMenuHL()
+    {
+        Clear();
+        HL_X_R.SetActive(true);
+        HL_Y_R.SetActive(true);
+        HL_Z_R.SetActive(true);
+        HL_XYZ_R.SetActive(true);
+        HL_BackArrow.SetActive(true);
+    }
+
+    public void MoveMenuHL()
+    {
+        Clear();
+        HL_X_M.SetActive(true);
+        HL_Y_M.SetActive(true);
+        HL_Z_M.SetActive(true);
+        HL_XYZ_M.SetActive(true);
+        HL_BackArrow.SetActive(true);
+    }
+
+    public void ScaleMenuHL()
+    {
+        Clear();
+        HL_X_S.SetActive(true);
+        HL_Y_S.SetActive(true);
+        HL_Z_S.SetActive(true);
+        HL_XYZ_S.SetActive(true);
+        HL_BackArrow.SetActive(true);
+    }
 }
