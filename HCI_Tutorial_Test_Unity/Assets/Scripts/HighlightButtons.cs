@@ -92,6 +92,29 @@ public class HighlightButtons : MonoBehaviour
         HL_Action.SetActive(true);
         HL_Select.SetActive(true);
     }
+    
+    public void ActionMenuHL()
+    {
+        Clear();
+        HL_SpawnShape.SetActive(true);
+        HL_RotateShape.SetActive(true);
+        HL_MoveShape.SetActive(true);
+        HL_ScaleShape.SetActive(true);
+        HL_ColorShape.SetActive(true);
+        HL_BackArrow.SetActive(true);
+    }
+
+    public void ColorMenuHL()
+    {
+        Clear();
+        HL_BackArrow.SetActive(true);
+    }
+
+    public void SpawnMenuHL()
+    {
+        Clear();
+        HL_BackArrow.SetActive(true);
+    }
 
     public void RotateMenuHL()
     {

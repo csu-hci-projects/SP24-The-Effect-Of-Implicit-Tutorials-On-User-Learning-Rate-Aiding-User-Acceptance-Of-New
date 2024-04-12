@@ -39,7 +39,7 @@ public class MenuRendering : MonoBehaviour
         PopupMenu.SetActive(false);
         BasicMenu.SetActive(true);
         ActiveMenu = BasicMenu;
-        //BasicMenuHL();
+        FindObjectOfType<HighlightButtons>().BasicMenuHL();
     }
 
     public void OpenActionMenu()
@@ -47,6 +47,8 @@ public class MenuRendering : MonoBehaviour
         BasicMenu.SetActive(false);
         ActionMenu.SetActive(true);
         ActiveMenu = ActionMenu;
+        FindObjectOfType<HighlightButtons>().ActionMenuHL();
+
     }
 
     public void OpenRotateMenu()
@@ -54,7 +56,7 @@ public class MenuRendering : MonoBehaviour
         ActionMenu.SetActive(false);
         RotateMenu.SetActive(true);
         ActiveMenu = RotateMenu;
-        //RotateMenuHL();
+        FindObjectOfType<HighlightButtons>().RotateMenuHL();
     }
 
     public void OpenPositionMenu()
@@ -62,7 +64,7 @@ public class MenuRendering : MonoBehaviour
         ActionMenu.SetActive(false);
         PositionMenu.SetActive(true);
         ActiveMenu = PositionMenu;
-        //MoveMenuHL();
+        FindObjectOfType<HighlightButtons>().MoveMenuHL();
     }
 
     public void OpenScaleMenu()
@@ -70,25 +72,28 @@ public class MenuRendering : MonoBehaviour
         ActionMenu.SetActive(false);
         ScaleMenu.SetActive(true);
         ActiveMenu = ScaleMenu;
-        //ScaleMenuHL();
+        FindObjectOfType<HighlightButtons>().ScaleMenuHL();
     }
 
     public void OpenColorMenu() { 
         ActionMenu.SetActive(false);
         ColorMenu.SetActive(true);
         ActiveMenu = ColorMenu;
+        FindObjectOfType<HighlightButtons>().ColorMenuHL();
     }
 
     public void OpenSpawnMenu() {
         ActionMenu.SetActive(false);
         SpawnMenu.SetActive(true);
         ActiveMenu = SpawnMenu;
+        FindObjectOfType<HighlightButtons>().SpawnMenuHL();
     }
 
     public void OpenPopupMenu(){
         PopupMenu.SetActive(true);
         BasicMenu.SetActive(false);
         ActiveMenu = PopupMenu;
+        FindObjectOfType<HighlightButtons>().Clear();
     }
 
     public void GoBack()
@@ -98,36 +103,42 @@ public class MenuRendering : MonoBehaviour
             ActionMenu.SetActive(false);
             BasicMenu.SetActive(true);
             ActiveMenu = BasicMenu;
+            FindObjectOfType<HighlightButtons>().BasicMenuHL();
         }
         if (ActiveMenu == RotateMenu)
         {
             RotateMenu.SetActive(false);
             ActionMenu.SetActive(true);
             ActiveMenu = ActionMenu;
+            FindObjectOfType<HighlightButtons>().ActionMenuHL();
         }
         if (ActiveMenu == PositionMenu)
         {
             PositionMenu.SetActive(false);
             ActionMenu.SetActive(true);
             ActiveMenu = ActionMenu;
+            FindObjectOfType<HighlightButtons>().ActionMenuHL();
         }
         if (ActiveMenu == ScaleMenu)
         {
             ScaleMenu.SetActive(false);
             ActionMenu.SetActive(true);
             ActiveMenu = ActionMenu;
+            FindObjectOfType<HighlightButtons>().ActionMenuHL();
         }
         if (ActiveMenu == ColorMenu)
         {
             ColorMenu.SetActive(false);
             ActionMenu.SetActive(true);
             ActiveMenu = ActionMenu;
+            FindObjectOfType<HighlightButtons>().ActionMenuHL();
         }
         if (ActiveMenu == SpawnMenu)
         {
             SpawnMenu.SetActive(false);
             ActionMenu.SetActive(true);
             ActiveMenu = ActionMenu;
+            FindObjectOfType<HighlightButtons>().ActionMenuHL();
         }
     }
 }
