@@ -39,6 +39,7 @@ public class MenuRendering : MonoBehaviour
         PopupMenu.SetActive(false);
         BasicMenu.SetActive(true);
         ActiveMenu = BasicMenu;
+        //BasicMenuHL();
     }
 
     public void OpenActionMenu()
@@ -53,6 +54,7 @@ public class MenuRendering : MonoBehaviour
         ActionMenu.SetActive(false);
         RotateMenu.SetActive(true);
         ActiveMenu = RotateMenu;
+        //RotateMenuHL();
     }
 
     public void OpenPositionMenu()
@@ -60,6 +62,7 @@ public class MenuRendering : MonoBehaviour
         ActionMenu.SetActive(false);
         PositionMenu.SetActive(true);
         ActiveMenu = PositionMenu;
+        //MoveMenuHL();
     }
 
     public void OpenScaleMenu()
@@ -67,7 +70,9 @@ public class MenuRendering : MonoBehaviour
         ActionMenu.SetActive(false);
         ScaleMenu.SetActive(true);
         ActiveMenu = ScaleMenu;
+        //ScaleMenuHL();
     }
+
     public void OpenColorMenu() { 
         ActionMenu.SetActive(false);
         ColorMenu.SetActive(true);
