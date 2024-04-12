@@ -16,6 +16,8 @@ public class HighlightButtons : MonoBehaviour
     public GameObject HL_Y;
     public GameObject HL_Z;
     public GameObject HL_XYZ;
+    public GameObject HL_TaskFinished;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +34,7 @@ public class HighlightButtons : MonoBehaviour
         HL_Y.SetActive(false);
         HL_Z.SetActive(false);
         HL_XYZ.SetActive(false);
+        HL_TaskFinished.SetActive(false);
     }
 
     // Update is called once per frame
@@ -54,6 +57,7 @@ public class HighlightButtons : MonoBehaviour
         HL_Y.SetActive(false);
         HL_Z.SetActive(false);
         HL_XYZ.SetActive(false);
+        HL_TaskFinished.SetActive(false);
     }
      
 }
