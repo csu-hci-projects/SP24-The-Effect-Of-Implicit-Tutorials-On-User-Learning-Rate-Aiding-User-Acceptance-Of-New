@@ -17,7 +17,6 @@ public class HighlightButtons : MonoBehaviour
     public GameObject HL_Z;
     public GameObject HL_XYZ;
 
-
     // Start is called before the first frame update
     void Start()
     {
