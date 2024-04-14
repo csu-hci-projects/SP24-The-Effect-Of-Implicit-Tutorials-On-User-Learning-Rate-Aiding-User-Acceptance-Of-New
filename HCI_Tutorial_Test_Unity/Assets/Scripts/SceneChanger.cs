@@ -12,9 +12,13 @@ public class SceneChanger : MonoBehaviour
      highlightTutorial = htut
      
      */
-
+    private StaticDataLog sdl;
     public int NextSceneIndex = 0;
     public DataFileWriter dfw;
+
+    void Start(){
+        sdl = GameObject.Find("StaticHighlight").GetComponent<StaticDataLog>();
+    }
 
     public void SwitchScenes()
     {
@@ -37,7 +41,8 @@ public class SceneChanger : MonoBehaviour
         else if (TrialType == "htut")
         {
             //send to first trial for highlighted tutorial
-            SceneManager.LoadScene(NextSceneIndex); //temp
+            SceneManager.LoadScene(NextSceneIndex);
+            sdl.setHighlightTrue();
         }
         else
         {

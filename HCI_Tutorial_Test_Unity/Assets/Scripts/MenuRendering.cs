@@ -12,8 +12,9 @@ public class MenuRendering : MonoBehaviour
     public GameObject ColorMenu;
     public GameObject SpawnMenu;
     public GameObject PopupMenu;
-
     public GameObject ActiveMenu;
+    private bool highlight;
+    private HighlightButtons hlb;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +27,9 @@ public class MenuRendering : MonoBehaviour
         ScaleMenu.SetActive(false);
         ColorMenu.SetActive(false);
         SpawnMenu.SetActive(false);
+        highlight = GameObject.Find("StaticHighlight").GetComponent<StaticDataLog>().getHighlightOn();
+        hlb = FindObjectOfType<HighlightButtons>();
+        // Debug.Log(highlight);
     }
 
     // Update is called once per frame
@@ -39,7 +43,9 @@ public class MenuRendering : MonoBehaviour
         PopupMenu.SetActive(false);
         BasicMenu.SetActive(true);
         ActiveMenu = BasicMenu;
-        FindObjectOfType<HighlightButtons>().BasicMenuHL();
+        if(highlight){
+            hlb.BasicMenuHL();
+        }
     }
 
     public void OpenActionMenu()
@@ -47,7 +53,9 @@ public class MenuRendering : MonoBehaviour
         BasicMenu.SetActive(false);
         ActionMenu.SetActive(true);
         ActiveMenu = ActionMenu;
-        FindObjectOfType<HighlightButtons>().ActionMenuHL();
+        if(highlight){
+            hlb.ActionMenuHL();
+        }
 
     }
 
@@ -56,7 +64,9 @@ public class MenuRendering : MonoBehaviour
         ActionMenu.SetActive(false);
         RotateMenu.SetActive(true);
         ActiveMenu = RotateMenu;
-        FindObjectOfType<HighlightButtons>().RotateMenuHL();
+        if(highlight){
+            hlb.RotateMenuHL();
+        }
     }
 
     public void OpenPositionMenu()
@@ -64,7 +74,9 @@ public class MenuRendering : MonoBehaviour
         ActionMenu.SetActive(false);
         PositionMenu.SetActive(true);
         ActiveMenu = PositionMenu;
-        FindObjectOfType<HighlightButtons>().MoveMenuHL();
+        if(highlight){
+            hlb.MoveMenuHL();
+        }
     }
 
     public void OpenScaleMenu()
@@ -72,28 +84,36 @@ public class MenuRendering : MonoBehaviour
         ActionMenu.SetActive(false);
         ScaleMenu.SetActive(true);
         ActiveMenu = ScaleMenu;
-        FindObjectOfType<HighlightButtons>().ScaleMenuHL();
+        if(highlight){
+            hlb.ScaleMenuHL();
+        }
     }
 
     public void OpenColorMenu() { 
         ActionMenu.SetActive(false);
         ColorMenu.SetActive(true);
         ActiveMenu = ColorMenu;
-        FindObjectOfType<HighlightButtons>().ColorMenuHL();
+        if(highlight){
+            hlb.ColorMenuHL();
+        }
     }
 
     public void OpenSpawnMenu() {
         ActionMenu.SetActive(false);
         SpawnMenu.SetActive(true);
         ActiveMenu = SpawnMenu;
-        FindObjectOfType<HighlightButtons>().SpawnMenuHL();
+        if(highlight){
+            hlb.SpawnMenuHL();
+        }
     }
 
     public void OpenPopupMenu(){
         PopupMenu.SetActive(true);
         BasicMenu.SetActive(false);
         ActiveMenu = PopupMenu;
-        FindObjectOfType<HighlightButtons>().Clear();
+        if(highlight){
+            hlb.Clear();
+        }
     }
 
     public void GoBack()
@@ -103,42 +123,54 @@ public class MenuRendering : MonoBehaviour
             ActionMenu.SetActive(false);
             BasicMenu.SetActive(true);
             ActiveMenu = BasicMenu;
-            FindObjectOfType<HighlightButtons>().BasicMenuHL();
+            if(highlight){
+                hlb.BasicMenuHL();
+            }
         }
         if (ActiveMenu == RotateMenu)
         {
             RotateMenu.SetActive(false);
             ActionMenu.SetActive(true);
             ActiveMenu = ActionMenu;
-            FindObjectOfType<HighlightButtons>().ActionMenuHL();
+            if(highlight){
+                hlb.ActionMenuHL();
+            }
         }
         if (ActiveMenu == PositionMenu)
         {
             PositionMenu.SetActive(false);
             ActionMenu.SetActive(true);
             ActiveMenu = ActionMenu;
-            FindObjectOfType<HighlightButtons>().ActionMenuHL();
+            if(highlight){
+                hlb.ActionMenuHL();
+            }
         }
         if (ActiveMenu == ScaleMenu)
         {
             ScaleMenu.SetActive(false);
             ActionMenu.SetActive(true);
             ActiveMenu = ActionMenu;
-            FindObjectOfType<HighlightButtons>().ActionMenuHL();
+            if(highlight){
+                hlb.ActionMenuHL();
+            }
         }
         if (ActiveMenu == ColorMenu)
         {
             ColorMenu.SetActive(false);
             ActionMenu.SetActive(true);
             ActiveMenu = ActionMenu;
-            FindObjectOfType<HighlightButtons>().ActionMenuHL();
+            if(highlight){
+                hlb.ActionMenuHL();
+            }
         }
         if (ActiveMenu == SpawnMenu)
         {
             SpawnMenu.SetActive(false);
             ActionMenu.SetActive(true);
             ActiveMenu = ActionMenu;
-            FindObjectOfType<HighlightButtons>().ActionMenuHL();
+            if(highlight){
+                hlb.ActionMenuHL();
+            }
         }
     }
 }
