@@ -78,30 +78,30 @@ public class TaskFinishedButton : MonoBehaviour
     }
 
     string TaskOneTwo(){
-        string task = "1. This is first\n2. This is next";
+        string task = "\nCreate a long, thin, orange cylinder.";
         return task;
     }
     string TaskOneThr(){
-        string task = "1. TaskOneThr\n2. TaskOneThr";
+        string task = "\nCreate a yellow pyramid and position all three objects to make the appearance of a pencil.";
         return task;
     }
 
     string TaskTwoOne(){
-        string task = "1. TaskTwoOne\n2. TaskTwoOne";
+        string task = "\nCreate two blue spheres that do not overlap or intersect.";
         return task;
     }
     string TaskTwoTwo(){
-        string task = "1. TaskTwoTwo\n2. TaskTwoTwo";
+        string task = "\nCreate three long, thin, purple rectangular prisms and position them so the two spheres connect all shapes in a line.";
         return task;
     }
 
     string TaskTwoThr(){
-        string task = "1. TaskTwoThr\n2. TaskTwoThr";
+        string task = "\nFlatten the spheres and rotate the prisms to make the appearance of glasses. Shapes may overlap some.";
         return task;
     }
 
     string TaskThrOne(){
-        string task = "Final Task Lets Go";
+        string task = "Build a simple house with a roof, a chimney, and a door. Each shape used must be a differnt color.";
         return task;
     }
  
