@@ -45,6 +45,7 @@ public class TaskFinishedButton : MonoBehaviour
         fileWriter.TrialRound = currentRound;
         if(currentRound >= 3 && currentTrial >= 2){
             taskLabelText.SetText("Finished");
+            taskDescText.SetText("");
         }
         else{
             string newTaskLabel = string.Format("Task {0}.{1}", currentRound, currentTrial);
