@@ -92,7 +92,7 @@ public class TaskFinishedButton : MonoBehaviour
         return task;
     }
     string TaskTwoTwo(){
-        string task = "\nCreate three long, thin, purple rectangular prisms and position them so the two spheres connect all shapes in a line.";
+        string task = "\nCreate three cubes, stretch them into long, thin, rectangular prisms, and color them purple, and position them so the two spheres connect all shapes in a line.";
         return task;
     }
 
