@@ -102,7 +102,7 @@ public class TaskFinishedButton : MonoBehaviour
     }
 
     string TaskThrOne(){
-        string task = "Build a simple house with a roof, a chimney, and a door. Each shape used must be a differnt color.";
+        string task = "Build a simple house with a roof, a chimney, a window, and a door. Each shape used must be a different color.";
         return task;
     }
  
