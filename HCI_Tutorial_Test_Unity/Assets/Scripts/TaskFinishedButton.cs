@@ -26,8 +26,8 @@ public class TaskFinishedButton : MonoBehaviour
     void Click()
     {
         dataManager.GetComponent<ClickCounter>().addButton(gameObject.name, Time.time);
-        string outputString = dataManager.GetComponent<ClickCounter>().printList();
-        fileWriter.FileWrite(outputString);
+        // string outputString = dataManager.GetComponent<ClickCounter>().printList();
+        // fileWriter.FileWrite(outputString);
         UpdatePopup();
     }
     void UpdatePopup(){
@@ -46,6 +46,8 @@ public class TaskFinishedButton : MonoBehaviour
         if(currentRound >= 3 && currentTrial >= 2){
             taskLabelText.SetText("Finished");
             taskDescText.SetText("");
+            string outputString = dataManager.GetComponent<ClickCounter>().printList();
+            fileWriter.FileWrite(outputString);
         }
         else{
             string newTaskLabel = string.Format("Task {0}.{1}", currentRound, currentTrial);
