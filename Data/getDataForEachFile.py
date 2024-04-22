@@ -1,5 +1,9 @@
 from GetData import Data
+import os, glob
 
-fileName1 = "2_notut_.txt"
-participant2 = Data(fileName1)
-participant2.saveToFile("participant2.csv")
+#path must stay rawData/ - its expected by the Data class
+path = "rawData/"
+
+for filename in glob.glob(os.path.join(path, "*.txt")):
+    participant = Data(filename)
+    participant.saveToFile("participantData/participant{num}.csv".format(num=participant.participant))

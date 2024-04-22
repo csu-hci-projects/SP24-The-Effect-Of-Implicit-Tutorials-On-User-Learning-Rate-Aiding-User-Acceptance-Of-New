@@ -1,0 +1,322 @@
+Participant,3
+Type,stut
+
+Trial total time and number of clicks
+Trial 1.1
+Time,65.9442
+Total Clicks,11
+
+Trial 1.2
+Time,125.9236
+Total Clicks,29
+
+Trial 1.3
+Time,171.7234
+Total Clicks,31
+
+Trial 2.1
+Time,37.7433
+Total Clicks,21
+
+Trial 2.2
+Time,175.1633
+Total Clicks,81
+
+Trial 2.3
+Time,179.7397
+Total Clicks,64
+
+Trial 3.1
+Time,299.2430
+Total Clicks,84
+
+Time of Clicks per Button
+Trial 1.1
+start,0.0000
+Action,8.3248,56.2371
+Spawn,11.2508
+Cube,48.9367
+Spawn_back,50.4762
+Action_back,53.2098,62.5913
+Select,54.3238
+Color,57.7654
+Pink,60.4015
+Color_back,62.0416
+TaskFinished,65.9442
+
+Trial 1.2
+start,0.0000
+Action,33.1703,61.2114
+Spawn,34.0700
+Cylinder,37.7206
+Spawn_back,39.6806
+Position,43.4490,63.9372
+Move_back,46.9290,102.0175
+Action_back,47.2071,119.5210
+Select,48.1949,55.1623,55.3857
+Move_Z,75.4121,78.4799
+Move_ZX,77.0586,77.9199
+Move_YZ,79.9122,98.7528,100.4768
+Move_XYZ,84.7287
+Move_Y,93.9542
+Scale,105.3025
+Scale_XY,108.0453
+Scale_back,112.9729
+Color,113.9198
+Orange,116.5741
+Color_back,118.9248
+TaskFinished,125.9236
+
+Trial 1.3
+start,0.0000
+Action,50.5672,59.4935,64.7571,111.3527,154.6233
+Spawn,51.6487
+Pyramid,53.1781
+Spawn_back,54.7866
+Action_back,55.6857,60.7615,107.9902,151.4375,160.4253
+Select,61.6496,61.8847,62.1426,109.2062,152.7983
+Position,67.3009,112.6157
+Move_YZ,68.6572,77.4445,118.1251
+Move_X,71.9462,92.5855
+Move_back,100.4668,150.6404
+Move_XYZ,123.2579
+Color,155.6422
+Yellow,157.9064
+Color_back,160.0570
+TaskFinished,171.7234
+
+Trial 2.1
+start,0.0000
+Action,11.0329,20.5610,33.1751
+Spawn,12.0344
+Sphere,13.2437,15.5108
+Spawn_back,16.6844
+Action_back,17.4839,30.4188,36.5501
+Select,18.6416,31.2837
+Position,21.1827
+Move_X,22.4768
+Move_back,26.3818
+Color,27.5044,34.4339
+Blue,28.9003,35.0331
+Color_back,29.8991,36.1440
+TaskFinished,37.7433
+
+Trial 2.2
+start,0.0000
+Action,8.1908,18.7982,31.0489,41.1466,103.9549,134.4484,143.7223,150.5612
+Spawn,9.2585
+Cube,12.4889,12.9486,13.3555
+Spawn_back,14.9156
+Action_back,15.4581,27.5175,37.8664,99.9118,129.3634,140.2327,147.1955,171.1115
+Select,16.7313,28.9226,39.2536,102.0282,132.3809,132.7973,141.2350,141.6049,141.7738,148.6124
+Position,20.0728,32.0748,41.8487,82.6994,116.6063,161.7107
+Move_X,21.1727,32.8724,42.7175,83.8709,118.3969,163.9622
+Move_back,26.9812,37.6431,54.2579,89.7209,122.1206,167.3791
+Scale,55.6995,105.4818,123.3111,151.6301
+Scale_X,62.5825,106.7968,124.8536,153.1056
+Scale_Z,74.3802,112.0954,157.2216
+Scale_back,81.7549,115.6295,129.0637,160.6390
+Color,90.5548,135.1911,144.6193,168.6145
+Purple,91.8468,95.4657,136.1724,136.7127,136.9042,145.4397,169.5490
+Pink,93.3891
+Color_back,96.8725,138.4443,146.7699,170.6876
+Move_Y,162.8315
+TaskFinished,175.1633
+
+Trial 2.3
+start,0.0000
+Select,11.3016,30.8894,47.2485,92.9096,93.6321,102.9676,103.3643,103.5901,103.7906,114.4909
+Action,13.1506,33.0927,51.6662,95.9824,108.5404,116.8634
+Scale,15.9019,34.9500,74.5411,135.7493
+Scale_X,16.8253
+Scale_Z,18.5487,36.0994
+Scale_back,28.5919,42.0595,83.0576,150.8153
+Action_back,29.5625,42.6488,91.6400,101.9234,113.6574,169.6460
+Rotate,55.9774,98.1239,109.5845,119.4503
+Rotate_Y,57.2400,100.2156,112.2082,126.2829
+Rotate_back,62.3106,101.6987,113.1615,134.2438
+Position,63.2317,83.9327,151.7257
+Move_X,64.2679
+Move_XYZ,65.2672,85.1160,152.7052
+Move_back,73.6278,90.6403,168.3871
+Scale_XY,76.3077
+Rotate_XY,99.4586,110.9093
+Rotate_ZX,111.7904,124.9160
+Scale_ZX,137.2721,145.0800,146.0911
+Scale_Y,146.5835
+TaskFinished,179.7397
+
+Trial 3.1
+start,0.0000
+Action,2.4708,18.6525,60.7288,104.8272,142.3579,241.5970
+Spawn,3.3334,234.7570
+Sphere,5.8095
+Cube,8.0598,10.1249,236.7820
+Pyramid,11.3424
+Spawn_back,12.8500,238.0750
+Action_back,13.6930,57.0039,99.6749,137.0274,238.6030,289.5660
+Select,16.3349,58.2005,101.1510,139.8838,239.6180
+Position,19.7010,62.3035,118.0074,144.1810,200.4420,242.5510,270.0720
+Move_XYZ,21.2114,63.3403,119.3526,151.7645,201.7580,243.4750,271.3070
+Move_back,28.0922,86.1008,135.2736,162.6563,223.4930,261.6080,282.0060
+Scale,28.9684,91.7245,106.8659,164.0268,262.7790
+Scale_XY,34.6610,44.8081,94.6013,165.8728
+Scale_ZX,41.3433,93.3991,170.5498,263.7020
+Scale_back,48.5344,98.2366,113.4923,199.3070,268.9480
+Color,51.9066,87.1431,114.4007,226.6890,284.6370
+Yellow,53.9329,230.5250
+Color_back,55.8920,90.6002,116.3264,233.2400,288.6080
+Red,88.6398
+Scale_Z,107.9575
+Blue,115.2161
+Move_YZ,145.4561
+Orange,231.4490
+Scale_Y,264.6740
+Green,286.1230
+TaskFinished,299.2430
+
+Number of Clicks Per Button
+Trial 1.1
+start,1
+Action,2
+Spawn,1
+Cube,1
+Spawn_back,1
+Action_back,2
+Select,1
+Color,1
+Pink,1
+Color_back,1
+TaskFinished,1
+
+Trial 1.2
+start,1
+Action,2
+Spawn,1
+Cylinder,1
+Spawn_back,1
+Position,2
+Move_back,2
+Action_back,2
+Select,3
+Move_Z,2
+Move_ZX,2
+Move_YZ,3
+Move_XYZ,1
+Move_Y,1
+Scale,1
+Scale_XY,1
+Scale_back,1
+Color,1
+Orange,1
+Color_back,1
+TaskFinished,1
+
+Trial 1.3
+start,1
+Action,5
+Spawn,1
+Pyramid,1
+Spawn_back,1
+Action_back,5
+Select,5
+Position,2
+Move_YZ,3
+Move_X,2
+Move_back,2
+Move_XYZ,1
+Color,1
+Yellow,1
+Color_back,1
+TaskFinished,1
+
+Trial 2.1
+start,1
+Action,3
+Spawn,1
+Sphere,2
+Spawn_back,1
+Action_back,3
+Select,2
+Position,1
+Move_X,1
+Move_back,1
+Color,2
+Blue,2
+Color_back,2
+TaskFinished,1
+
+Trial 2.2
+start,1
+Action,8
+Spawn,1
+Cube,3
+Spawn_back,1
+Action_back,8
+Select,10
+Position,6
+Move_X,6
+Move_back,6
+Scale,4
+Scale_X,4
+Scale_Z,3
+Scale_back,4
+Color,4
+Purple,7
+Pink,1
+Color_back,4
+Move_Y,1
+TaskFinished,1
+
+Trial 2.3
+start,1
+Select,10
+Action,6
+Scale,4
+Scale_X,1
+Scale_Z,2
+Scale_back,4
+Action_back,6
+Rotate,4
+Rotate_Y,4
+Rotate_back,4
+Position,3
+Move_X,1
+Move_XYZ,3
+Move_back,3
+Scale_XY,1
+Rotate_XY,2
+Rotate_ZX,2
+Scale_ZX,3
+Scale_Y,1
+TaskFinished,1
+
+Trial 3.1
+start,1
+Action,6
+Spawn,2
+Sphere,1
+Cube,3
+Pyramid,1
+Spawn_back,2
+Action_back,6
+Select,5
+Position,7
+Move_XYZ,7
+Move_back,7
+Scale,5
+Scale_XY,4
+Scale_ZX,4
+Scale_back,5
+Color,5
+Yellow,2
+Color_back,5
+Red,1
+Scale_Z,1
+Blue,1
+Move_YZ,1
+Orange,1
+Scale_Y,1
+Green,1
+TaskFinished,1
+

@@ -6,10 +6,15 @@ class Data:
             self.timeOfClicks = {}
             self.time = 0
             self.totalClicks = 0
-
+            
+    #filename must inculde a path of rawData/ if its not then the filename will be sliced wrong
     def __init__(self, filename):
         self.trials = []
-        self.filename = filename
+        self.filename = filename[8:]
+        participantID, tutType, _ = self.filename.split("_", 2)
+        self.participant = participantID
+        self.type = tutType
+
         for i in range(7):
             newTrial = self.Trial()
             self.trials.append(newTrial)
@@ -69,9 +74,7 @@ class Data:
             trial.time = trial.timeOfClicks["TaskFinished"][0]
 
     def printData(self):
-        participantID, tutType, _ = self.filename.split("_", 2)
-        # tutType = tutType.strip('_')
-        stringData = "Participant,{ID}\nType,{tut}\n\n".format(ID=participantID, tut=tutType)
+        stringData = "Participant,{ID}\nType,{tut}\n\n".format(ID=self.participant, tut=self.type)
         stringData += self.timeString()
         stringData += self.buttonTimeToString()
         stringData += self.buttonClickToString()
