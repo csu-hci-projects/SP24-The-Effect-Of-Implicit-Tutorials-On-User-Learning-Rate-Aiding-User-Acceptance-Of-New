@@ -1,0 +1,316 @@
+Participant,14
+Type,stut
+
+Trial total time and number of clicks
+Trial 1.1
+Time,80.9247
+Total Clicks,15
+
+Trial 1.2
+Time,210.8609
+Total Clicks,28
+
+Trial 1.3
+Time,468.6682
+Total Clicks,99
+
+Trial 2.1
+Time,168.4515
+Total Clicks,23
+
+Trial 2.2
+Time,267.4700
+Total Clicks,62
+
+Trial 2.3
+Time,258.5540
+Total Clicks,40
+
+Trial 3.1
+Time,486.7150
+Total Clicks,137
+
+Time of Clicks per Button
+Trial 1.1
+start,0.0000
+Action,1.5533,9.4768,21.3053
+Spawn,2.9360
+Cube,3.7448
+Spawn_back,6.4407
+Action_back,8.0266,15.4249,29.0051
+Color,10.7796,24.2377
+Color_back,13.6925,27.7762
+Select,16.4231
+Pink,25.6871
+TaskFinished,80.9247
+
+Trial 1.2
+start,0.0000
+Action,8.6284,33.9639,95.5825,115.9140
+Spawn,9.7477
+Cylinder,11.5817
+Spawn_back,15.4761
+Action_back,17.9832,87.3664,101.9476,135.3166
+HomeCamera,20.4637
+Select,30.8794,93.4839,105.7161,111.4323
+Position,35.2508
+Move_Z,42.1497
+Move_YZ,63.6974
+Move_X,69.1469
+Move_back,75.6950
+Color,78.7471
+Orange,80.5149
+Color_back,83.2964
+Scale,121.7300
+Scale_XYZ,123.8150,128.3470
+Scale_back,134.7121
+TaskFinished,210.8609
+
+Trial 1.3
+start,0.0000
+Action,2.0157,29.8812,56.3337,111.0010,144.7677,165.9166,198.0686,271.8476,295.6364,321.5182
+Spawn,3.6477
+Pyramid,5.2878
+Spawn_back,12.8159
+Action_back,13.5123,43.7663,107.2121,135.5504,155.6547,183.4522,268.3839,290.5193,313.4357,349.2903
+Select,15.6659,24.1991,26.4149,44.7486,51.0822,108.2029,137.5664,141.8498,157.8343,184.5059,188.4967,192.2534,269.2507,292.2181,314.5356
+Position,31.1615,58.1159,166.8339,212.6017,244.7667,252.7471,265.3504,272.6358,296.3892,322.8666
+Move_X,34.8115
+Move_XYZ,37.6815,68.5171,78.0496,78.5645,94.5001,171.3842,275.4710,298.4376,326.3543
+Move_back,41.8790,103.4329,180.9843,226.3702,251.0369,263.4509,267.9531,288.8156,307.9550,337.5694
+Move_Z,59.4340,65.8296,65.9332,67.0114
+Move_YZ,75.6627
+Move_nothing,96.2330,261.5686
+Move_ZX,97.6953,214.1552
+Move_Y,100.3192
+Rotate,115.2001,146.6797,153.9840,200.1172
+Rotate_YZ,119.2481,122.7333
+Rotate_XYZ,124.5477,148.8021,151.1000,201.5890
+Rotate_back,132.5028,152.8631,155.4671,210.9169
+Deselect,186.8897
+Scale,228.4464,309.4845
+Scale_XYZ,232.8860
+Scale_back,243.2166,312.3332
+Scale_nothing,310.9183
+TaskFinished,468.6682
+
+Trial 2.1
+start,0.0000
+Action,3.4475,17.5795,44.5505
+Spawn,5.5176,34.3655
+Sphere,6.7497,35.3135
+Spawn_back,8.7462,37.6645
+Action_back,14.2330,41.0645,49.5355
+Select,15.1345,42.4815
+Color,22.5805,45.3465
+Blue,24.1805,46.2305
+Color_back,25.4635,47.6645
+Position,27.3155
+Move_XYZ,28.5935
+Move_back,33.1315
+TaskFinished,168.4515
+
+Trial 2.2
+start,0.0000
+Select,1.9010,22.4650,28.4530,66.6180,105.5220,118.4820
+Action,4.9510,31.3550,70.0350,106.2030,121.4530
+Spawn,6.2010,60.4230,107.0040
+Cube,7.5800,61.5710,107.8500
+Spawn_back,11.5000,64.4210,109.4220
+Position,14.5350,32.5720,71.8700,111.1380,122.7370
+Move_XYZ,16.9230,33.7720,73.4770,113.1730,124.0020
+Move_back,18.7510,41.0180,80.7840,115.3850,130.5850
+Action_back,20.5090,65.7370,104.1340,117.1520,148.2030
+Scale,42.1600,81.9210,89.2500,95.5820,131.6580
+Scale_XYZ,44.3510,99.0030,133.9030
+Scale_back,51.3520,84.5720,93.3680,103.8990,138.5700
+Color,52.8520,85.5880,139.7190
+Pink,53.9180,86.7690,142.1380
+Color_back,55.7200,88.2350,145.9850
+TaskFinished,267.4700
+
+Trial 2.3
+start,0.0000
+Select,4.1510,34.0530,82.1010,109.9700,129.3660
+Action,7.9170,35.9560,85.4050,107.4040,112.1050,131.6860
+Rotate,9.2830,38.0700
+Rotate_XYZ,11.6040,39.5370
+Rotate_back,17.6210,50.9850
+Position,19.7700,52.2240,57.7840
+Move_XYZ,21.9840,60.1350
+Move_back,30.0030,55.7860,76.6350
+Action_back,31.9340,80.1340,105.9700,108.4710,127.9010,139.6220
+Scale,88.5510,113.2030,133.5030
+Scale_XYZ,92.3870,114.8050,135.1530
+Scale_back,103.7990,127.1520,139.1710
+TaskFinished,258.5540
+
+Trial 3.1
+start,0.0000
+Select,3.9340,5.1760,21.3620,39.3990,63.5660,65.6450,69.9280,92.7790,123.7950,152.3000,157.8310,159.9620,187.6490,240.9630,264.9130,335.0320
+Action,6.5190,23.2110,33.6450,43.2630,58.1430,73.0310,100.5130,125.8610,162.9820,190.5930,248.3300,268.6440,339.2780
+Spawn,7.4420,34.4640,59.0460,81.6480,88.6460,222.5680,253.8640,329.2810
+Cube,9.1250,82.9750
+Spawn_back,10.4980,38.0610,62.0780,87.4280,90.6460,226.8230,257.8150,331.8120
+Position,16.6130,23.9430,44.6960,74.1800,127.0820,164.6630,206.0470,287.2150,317.5150,356.5040
+Move_XYZ,18.3260,25.6130,46.7860,75.6960,129.0030,166.6810,209.1780,288.1630,319.0810,358.8310
+Move_back,20.1630,30.5450,50.4950,79.7640,143.6030,178.5640,221.1780,301.1640,326.7470,364.4990
+Action_back,20.4930,30.7950,38.4950,50.7120,62.3120,91.1300,122.0280,151.2790,186.2640,239.7980,264.0620,334.2470,366.3810
+Pyramid,35.6820
+Sphere,59.9960,223.8640,330.4020
+Scale,101.5290,196.2310,274.1490,302.2950,306.6300,343.3640
+Scale_XYZ,102.6700,197.8980,275.9810,309.1640,345.6160
+Scale_back,112.8300,205.1640,286.2810,305.4460,316.3140,355.2970
+Color,114.2920,145.2950,180.5960,191.8650,260.6320,269.5650,340.1650
+Green,116.0970
+Color_back,117.2470,148.1460,184.3810,194.9810,263.6790,272.9650,342.4130
+Yellow,146.4000
+Orange,182.2780
+Blue,193.7330,341.1980
+Destroy,229.2850,249.2970,252.4140,253.2710
+Cylinder,255.0630
+Red,262.4160,271.3300
+TaskFinished,486.7150
+
+Number of Clicks Per Button
+Trial 1.1
+start,1
+Action,3
+Spawn,1
+Cube,1
+Spawn_back,1
+Action_back,3
+Color,2
+Color_back,2
+Select,1
+Pink,1
+TaskFinished,1
+
+Trial 1.2
+start,1
+Action,4
+Spawn,1
+Cylinder,1
+Spawn_back,1
+Action_back,4
+HomeCamera,1
+Select,4
+Position,1
+Move_Z,1
+Move_YZ,1
+Move_X,1
+Move_back,1
+Color,1
+Orange,1
+Color_back,1
+Scale,1
+Scale_XYZ,2
+Scale_back,1
+TaskFinished,1
+
+Trial 1.3
+start,1
+Action,10
+Spawn,1
+Pyramid,1
+Spawn_back,1
+Action_back,10
+Select,15
+Position,10
+Move_X,1
+Move_XYZ,9
+Move_back,10
+Move_Z,4
+Move_YZ,1
+Move_nothing,2
+Move_ZX,2
+Move_Y,1
+Rotate,4
+Rotate_YZ,2
+Rotate_XYZ,4
+Rotate_back,4
+Deselect,1
+Scale,2
+Scale_XYZ,1
+Scale_back,2
+Scale_nothing,1
+TaskFinished,1
+
+Trial 2.1
+start,1
+Action,3
+Spawn,2
+Sphere,2
+Spawn_back,2
+Action_back,3
+Select,2
+Color,2
+Blue,2
+Color_back,2
+Position,1
+Move_XYZ,1
+Move_back,1
+TaskFinished,1
+
+Trial 2.2
+start,1
+Select,6
+Action,5
+Spawn,3
+Cube,3
+Spawn_back,3
+Position,5
+Move_XYZ,5
+Move_back,5
+Action_back,5
+Scale,5
+Scale_XYZ,3
+Scale_back,5
+Color,3
+Pink,3
+Color_back,3
+TaskFinished,1
+
+Trial 2.3
+start,1
+Select,5
+Action,6
+Rotate,2
+Rotate_XYZ,2
+Rotate_back,2
+Position,3
+Move_XYZ,2
+Move_back,3
+Action_back,6
+Scale,3
+Scale_XYZ,3
+Scale_back,3
+TaskFinished,1
+
+Trial 3.1
+start,1
+Select,16
+Action,13
+Spawn,8
+Cube,2
+Spawn_back,8
+Position,10
+Move_XYZ,10
+Move_back,10
+Action_back,13
+Pyramid,1
+Sphere,3
+Scale,6
+Scale_XYZ,5
+Scale_back,6
+Color,7
+Green,1
+Color_back,7
+Yellow,1
+Orange,1
+Blue,2
+Destroy,4
+Cylinder,1
+Red,2
+TaskFinished,1
+
