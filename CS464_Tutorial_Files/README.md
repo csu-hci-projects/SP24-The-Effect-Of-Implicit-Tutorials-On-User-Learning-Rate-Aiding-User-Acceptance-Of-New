@@ -2,7 +2,7 @@ GitHub: https://github.com/csu-hci-projects/SP24-The-Effect-Of-Implicit-Tutorial
 
 Overview Video:
 
-Code Explanation Video:
+Code Explanation Video: https://youtu.be/rZKI5KsRYxc
 
 Due to the way that we coded the file system, the project could not be built, so it must be openned in the Unity Editor. 
 We coded the project in Unity version 2022.3.10f1, but related versions should also support the project.
