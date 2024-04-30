@@ -1,0 +1,13 @@
+Intro Script (all groups):
+For this experiment, you will complete a series of tasks in our 3D modeling application. The tasks will be listed in the prompts, and we will have a physical copy of the instructions for each task, as well as a picture, available for you to reference. You will not be able to start a task until you have selected the “start” button. Please complete each task to the best of your ability. When you have finished the task, click the “Task Finished” button to prompt the next task.
+
+Script if no tutorial: 
+
+Script if highlighted buttons:
+To help you navigate the software, certain buttons will be highlighted in yellow when they might be useful to you, but won’t necessarily be the “correct” button every time. 
+
+Script if tutorial videos:
+To help you navigate the software, there are short tutorial videos to go along with each task that will guide you through the necessary button paths. We will show you the video after you read the task and pressed start. 
+
+Script Continued(All groups):
+If you feel the need to move the camera, camera controls are available using the W,A,S,D keys. Each task is timed, so please complete each task as quickly as possible while still completing to the best of your abilities. Once you have finished all tasks a short survey will be provided. Thank you for your participation.

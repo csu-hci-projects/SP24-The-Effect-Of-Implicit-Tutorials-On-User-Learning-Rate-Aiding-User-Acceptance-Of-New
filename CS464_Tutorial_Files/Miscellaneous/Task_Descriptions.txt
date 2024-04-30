@@ -1,0 +1,13 @@
+Task 1.1: Create a pink cube:
+
+Task 1.2: Create a long thin orange cylinder.
+
+Task 1.3: Create a yellow pyramid and position all three objects to make the appearance of a pencil.
+
+Task 2.1: Create two blue spheres that do no overlap or intersect.  
+
+Task 2.2 Create three cubes, stretch them into long, thin, rectangular prisms, and color them all purple. Then position them so the two spheres connect all the shapes in a line. 
+
+Task 2.3: Flatten the spheres and rotate the prisms to make the appearance of glasses. Shapes may overlap some. 
+
+Task 3.1: Build a simple house with a roof, a chimney, a window, and a door. Each shape used must be a different color. 

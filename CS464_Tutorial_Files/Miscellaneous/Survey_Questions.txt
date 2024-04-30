@@ -1,0 +1,29 @@
+What is your prior experience with digital 3D modeling software?
+
+If you’ve used other programs like this, which ones?
+
+On a scale from 1-7(1: Not confident - 7: Very Confident), how confident do you feel about your ability to navigate the app after completing the tasks?
+
+On a scale from 1-7 (1: Not helpful - 7: Very helpful), how helpful did you find the tutorials/button recommendations if applicable? 
+
+On a scale from 1-7 (1: Not very challenging - 7: Very Challenging) how challenging did you find it to navigate the menus.  
+
+On a scale from 1-7 (1: Rarely - 7: All the time), how often do you feel you misclicked or went into the wrong menu or clicked the wrong button?
+
+Survey Questions for Highlighted Users:
+
+On a scale from 1 - 7, how helpful were the highlighted buttons in determining what to click next for each task?
+
+On a scale from 1 - 7, how often did you use the aid of the highlighted buttons to determine your next move?
+
+What is one thing that could have made the highlighting a more useful tool?
+
+Survey Questions for Tutorial Users:
+
+On a scale from 1-7, do you feel that the tutorial saved you time completing each task?
+
+Is there any information that you wish was included in the tutorial that was not, that would have aided you in completing each task?
+
+Survey Questions for No Tutorial Users:
+
+On a scale from 1-7, (1 not being helpful at all - 7: would have been very helpful),  how helpful would you have found a tutorial? 
