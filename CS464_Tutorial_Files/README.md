@@ -6,7 +6,7 @@ Code Explanation Video:
 
 Due to the way that we coded the file system, the project could not be built, so it must be openned in the Unity Editor. 
 We coded the project in Unity version 2022.3.10f1, but related versions should also support the project.
-When running the program in play mode, please set the game view settings to 
+When running the program in play mode, please set the game view settings to 16:9 aspect ratio and maximized.
 
 The file directory the text files with participant data are stored in will be printed to the console, and can be used to locate the results files.
 When you first run the project, you will be prompted with two textboxes. For the first textbox, type in your participant's ID. For the second textbox, 
