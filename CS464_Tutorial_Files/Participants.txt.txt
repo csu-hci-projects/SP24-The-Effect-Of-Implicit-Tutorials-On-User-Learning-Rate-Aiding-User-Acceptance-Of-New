@@ -1,0 +1,19 @@
+ID: NAME
+1: Hannah Hurst
+2: Taylor Clark
+3: Nick Biddeson
+4: Elizabeth Mansfield
+5: Mark Rosenhagen
+6: Victor Steppel
+7: Emma Payton
+8: Rashida Obika
+9: Sophia Henderson
+10: Eli Crocker
+11: Nicole Yates
+12: Jessica Bahny
+13: Matthew Sturgeon
+14: Dustin Putnam
+15: David Sutherland
+16: Parker Lambert
+17: Lucy Lewark
+18: Drew Schmuck (CS 464)
