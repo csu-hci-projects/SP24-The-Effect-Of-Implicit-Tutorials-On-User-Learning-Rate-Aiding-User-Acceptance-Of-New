@@ -1,6 +1,6 @@
 GitHub: https://github.com/csu-hci-projects/SP24-The-Effect-Of-Implicit-Tutorials-On-User-Learning-Rate-Aiding-User-Acceptance-Of-New/tree/main 
 
-Overview Video:
+Overview Video: https://youtu.be/rp9c-zA3h5c
 
 Code Explanation Video: https://youtu.be/rZKI5KsRYxc
 
