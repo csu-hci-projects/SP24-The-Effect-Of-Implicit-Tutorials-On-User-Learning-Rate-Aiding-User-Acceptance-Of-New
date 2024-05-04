@@ -1,0 +1,37 @@
+For this project, we designed an intentionally convoluted interface with and without our highlighting tutorial. We then recorded start and end times, as well as every button click and the time for each participant trial. The work for the final report was divided evenly between the three of us.
+
+Emilie Beck
+Emilie structured the overall interface pages for each layer and button click the system had. She also wired all of the axis-related buttons to the proper commands they needed to trigger, and coded both the coloring and basic file-saving functionality of the interface, as well as the opening input page that is used to name the file for each participant.
+
+Jeremiah Geisterfer
+Jeremiah located the transformer tool code online and learned how it was implemented and how to use, and adapted it to our project. He also found the object outline asset and integrated it into the selection process of the prototype. In addition, he also worked on the camera rotation, object selection, object spawning and destroying, as well as trial transition and data collection. 
+
+Joy Putnam
+Joy designed and created vector graphics for all of the icons used as buttons in the program, as well as came up with tasks for users to complete so that they iterated on each other and were of reasonable difficulty, testing and timing each of them for a baseline and using screenshots of these tests as the examples in the powerpoints. They also implemented a simple system for highlighting different buttons on certain pages and mapped out the highlight pathing, as well as found and imported the prefab pyramid asset.
+
+
+Other comments
+One issue that we encountered was the prototype build not working properly. Since it was built in unity we were only ever testing our prototype in the editor and when the time came to actually build the prototype for user testing there was a bug that broke our prototype and we didn't have the time to fix it and because it worked just fine in the editor we decided to just run our experiment out of the unity editor instead of actually building it. 
+
+Our highlight tutorial also was not successful and seemed to cause more confusion than it solved. Although we failed to create a suggestion system to aid in the learning of our application it was a positive learning experience, and if we were tasked with creating a highlight tool in the future there would be things that we would do differently in the hopes of creating a successful aid. 
+
+
+
+
+
+Miscellaneous Includes:
+Test Administration Script
+Task Descriptions
+Survey Questions
+Survey Responses Spreadsheet
+Powerpoint with Tutorial Videos
+Powerpoint without Tutorial Videos
+Raw User Data Spreadsheet
+All Icons Created (Used and Unused) Plus Planning + Sketches
+
+
+Sources Not In PDFs:
+Foster, Jerod (2013). Color: A Photographer's Guide to Directing the Eye, Creating Visual Depth, 
+and Conveying Emotion. Pearson Education. (Book)
+
+
